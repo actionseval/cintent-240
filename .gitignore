@@ -1,0 +1,18 @@
+log*.png
+
+*.project
+*.pydevproject
+
+*.pyo
+*.pyc
+*.log
+*.cfg
+
+# Sphinx documentation generation
+docs/api/_build
+
+# Backup files and stuff from patches
+*.orig
+*.rej
+*~
+.*.swp

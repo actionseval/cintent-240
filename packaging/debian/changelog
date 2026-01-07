@@ -1,0 +1,65 @@
+guibot (0.51-1) unstable; urgency=medium
+
+  * API improvements like standardization and additional convenience methods.
+  * Support for native (py)tesseract text detection and simpler tessdata setup.
+
+ -- Plamen Dimitrov <plamen.dimitrov@intra2net.com>  Thu, 2 May 2024 13:00:00 +0700
+
+guibot (0.50-1) unstable; urgency=medium
+
+  * Windows packager script and CI verification.
+  * Default PyAutoGUI display controller instead of AutoPy.
+  * Minor improvements on CV usability and DC behavior.
+
+ -- Plamen Dimitrov <plamen.dimitrov@intra2net.com>  Fri, 28 Jan 2022 12:00:00 +0200
+
+guibot (0.41-1) unstable; urgency=medium
+
+  * New Tesseract OCR backends like pytesseract and tesserocr.
+  * New text detection method - CNN-based EAST detector.
+  * Pretrained Faster R-CNN-s for general object detection.
+  * PyAutoGUI display controller as an AutoPy alternative.
+  * Backward compatible renaming for clarity of some core modules.
+  * Nested step files, temporary file resolution paths, and more.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Tue, 27 Oct 2020 12:00:00 +0200
+
+guibot (0.40-1) unstable; urgency=medium
+
+  * Update to more recent versions for all backends.
+  * Overall bug fixes and code linting.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Mon, 30 Mar 2020 19:00:00 +0300
+
+guibot (0.31-1) unstable; urgency=medium
+
+  * Add support for Python 3.7.
+  * Update all backends to ones supporting Python 3.7.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Mon, 18 Mar 2019 23:00:00 +0800
+
+guibot (0.30-1) unstable; urgency=medium
+
+  * Switch support to Python 3.
+  * API version updates for AutoPy, PyTorch, VNCDoTool.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Sat, 30 Jun 2018 14:00:00 +0700
+
+guibot (0.21-1) unstable; urgency=medium
+
+  * XDoTool display control backend and password support for VNCDoTool.
+  * Improved form filling region methods.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Fri, 29 Jun 2018 21:32:35 +0700
+
+guibot (0.20-1) unstable; urgency=medium
+
+  * Fallback chains functionality and multiple OCR fixes.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Fri, 23 Mar 2018 14:10:05 +0200
+
+guibot (0.11-4) unstable; urgency=medium
+
+  * Initial Debian release.
+
+ -- Plamen Dimitrov <pdimitrov@pevogam.com>  Thu, 22 Mar 2018 17:48:17 +0200

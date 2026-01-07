@@ -1,0 +1,14 @@
+theme: jekyll-theme-minimal
+
+# Use repository's default title and description also for the web page
+#title: An alternative title
+#description: An alternative description.
+
+# Use this to show the downloads - the three options hardcoded into the
+# HTML layout are now modified as PIP/RPM/DEB on a copied overwriting
+# local layout instead.
+show_downloads: "true"
+github:
+  pip_url: https://pypi.org/project/guibot/
+  rpm_url: https://www.intra2net.com/en/developer/guibot/python3-guibot-0.50-1.fc33.x86_64.rpm
+  deb_url: https://www.intra2net.com/en/developer/guibot/python3-guibot_0.50-1_all.deb
